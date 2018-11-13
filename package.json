@@ -1,0 +1,23 @@
+{
+  "name": "coletividad-modulo-dois",
+  "version": "0.1.0",
+  "description": "Segunda parte do curso sobre CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raffaeldantass/coletividad2.git"
+  },
+  "author": "Rafael Dantas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raffaeldantass/coletividad2/issues"
+  },
+  "homepage": "https://github.com/raffaeldantass/coletividad2#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
