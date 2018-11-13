@@ -25,6 +25,8 @@ Agora inicie o servidor local:
 `
   projeto npm run start
 `
+
+Entre no navegador e acesse: http://localhost:8080
 <hr>
 
 ### Windows
@@ -50,3 +52,5 @@ Agora inicie o servidor local:
 `
  C:Users\Usuario\Desktop\projeto npm run start
 `
+
+Entre no navegador e acesse: http://localhost:8080
