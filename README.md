@@ -8,6 +8,9 @@ Crie uma pasta na sua área de trabalho e através do terminal, faça o clone de
 
 `
  ~ cd caminho/para/a/pasta/do/seu/projeto
+`
+
+` 
  projeto git clone https://github.com/raffaeldantass/coletividad2.git
 `
 
@@ -30,6 +33,9 @@ Crie uma pasta na sua área de trabalho e através do terminal, faça o clone de
 
 `
  C:Users\Usuario\Desktop cd caminho/para/a/pasta/do/seu/projeto
+`
+ 
+` 
  C:Users\Usuario\Desktop\projeto git clone https://github.com/raffaeldantass/coletividad2.git
 `
 
