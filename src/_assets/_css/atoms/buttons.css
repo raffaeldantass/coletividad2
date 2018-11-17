@@ -5,8 +5,11 @@
 
 .submit-button {
   background-color: var(--bg-color-submit-btn, #7F4DC7);
-  border-radius: 4px;
+  border-radius: 6px;
   border: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   color: var(--font-color-submit-btn, #ffffff);
-  padding: 6px 8px;
+  font-family: 'avenir';
+  font-size: 16px;
+  padding: 8px 24px;
 }
