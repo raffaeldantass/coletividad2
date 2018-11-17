@@ -1,9 +1,12 @@
 :root {
   --bg-color-submit-btn: #7F4DC7;
+  --font-color-submit-btn: #ffffff;
 }
 
-@media screen and (max-width: 600) {
-  .submit-button {
-    background-color: var(--bg-color-submit-btn, #7F4DC7);
-  }
+.submit-button {
+  background-color: var(--bg-color-submit-btn, #7F4DC7);
+  border-radius: 4px;
+  border: none;
+  color: var(--font-color-submit-btn, #ffffff);
+  padding: 6px 8px;
 }
