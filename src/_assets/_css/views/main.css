@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'avenir';
+  src: url(../../_fonts/avenir-medium.otf);
+}
+
+body {
+  font-family: 'avenir', Helvetica, sans-serif
+}
