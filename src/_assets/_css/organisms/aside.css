@@ -3,7 +3,6 @@
 }
 
 .aside-bar {
-  display: flex;
   flex-direction: column;
   background-color: var(--bg-color-aside-bar, #151515);
 }
@@ -14,5 +13,6 @@
     top: 0;
     left: 0;
     width: 350px;
+    height: calc(100% - 125px);
   }
 }

@@ -7,9 +7,9 @@ function menuController() {
 
   if (asideBar.style.display == 'none') {
 
-    asideBar.style.display = 'block';
+    asideBar.style.display = 'flex';
 
-  } else if(asideBar.style.display == 'block' ) {
+  } else if(asideBar.style.display == 'flex' ) {
     
     asideBar.style.display = 'none';
   }

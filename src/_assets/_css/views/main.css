@@ -8,6 +8,10 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    height: 100vh;
+  }
+
   .container {
     position: relative;
   }
