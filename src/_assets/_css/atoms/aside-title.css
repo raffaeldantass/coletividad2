@@ -1,0 +1,8 @@
+:root {
+  --font-color-aside-title: #F3BABA;
+}
+.aside-bar__title {
+  color: var(--font-color-aside-title, #F3BABA);
+  text-align: center;
+  font-size: 20px;
+}

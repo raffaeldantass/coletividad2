@@ -1,0 +1,7 @@
+:root {
+  --bg-color-main-content: #292726;
+}
+
+.content {
+  background-color: var(--bg-color-main-content, #292726);
+}

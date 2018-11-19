@@ -1,0 +1,10 @@
+:root {
+  --bg-color-mobile-menu: #151515;
+}
+
+.mobile-menu {
+  background-color: var(--bg-color-mobile-menu, #151515);
+  display: flex;
+  align-items: center;
+  height: 60px;
+}

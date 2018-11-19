@@ -1,0 +1,20 @@
+:root {
+  --bg-color-aside-menu-link-light: #2F2D2D;
+  --bg-color-aside-menu-link-dark: #252121;
+  --font-color-aside-menu-link: #ffffff;
+}
+
+.aside-bar__menu__dark-bg, .aside-bar__menu__light-bg {
+  color: var(--font-color-aside-menu-link, #ffffff);
+  font-size: 18px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.aside-bar__menu__light-bg {
+  background-color: var(--bg-color-aside-menu-link-light, #2F2D2D);
+}
+
+.aside-bar__menu__dark-bg {
+  background-color: var(--bg-color-aside-menu-link-dark, #252121);
+}

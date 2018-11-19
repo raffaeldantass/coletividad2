@@ -1,0 +1,10 @@
+:root {
+  --font-color-footer-link: #1A1A1A;
+}
+
+.link-item {
+  color: var(--font-color-footer-link, #1A1A1A);
+  font-size: 16px;
+  margin: 0 5px;
+  text-decoration: none;
+}
