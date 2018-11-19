@@ -1,7 +1,10 @@
+var mobileScreen = window.matchMedia("(max-width: 600px)")
 var menuIcon = document.querySelector(".mobile-menu__menu-icon");
 var asideBar = document.querySelector(".aside-bar");
 
-asideBar.style.display = 'none';
+if(mobileScreen.matches) {
+  asideBar.style.display = 'none';
+}
 
 function menuController() {
 
