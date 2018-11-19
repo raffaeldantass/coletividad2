@@ -4,5 +4,15 @@
 }
 
 body {
-  font-family: 'avenir', Helvetica, sans-serif
+  font-family: 'avenir', Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    height: 100vh;
+  }
+
+  .container {
+    position: relative;
+  }
 }

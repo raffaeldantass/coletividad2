@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
+    <link rel="stylesheet" href="_assets/_css/helpers/normalize.css">
+    <link rel="stylesheet" href="_assets/_css/templates/templates.css">
+
     <title> Curso Coletividad </title>
   </head>
   <body>
@@ -20,12 +23,12 @@
       <main class="content">
 
         <section class="mobile-menu">
-          <img src="" alt="Menu Hamburguer">
+          <img class="mobile-menu__menu-icon" src="_assets/img/menu-hamburguer.svg" alt="Menu Hamburguer">
         </section>
 
         <section class="filter-section">
-
-          <p class="filter-section__title"> Filtros: </p>
+          <h1 class="filter-section__title"> Imagens </h1>
+          <p class="filter-section__text"> Filtros: </p>
           <div class="filter-section__filter-btns">
             <button class="submit-button" type="submit"> Buscar </button>
             <button class="submit-button" type="submit"> Buscar </button>
@@ -116,16 +119,16 @@
       </main>
 
       <aside class="aside-bar">
-        <img class="logo-brand" src="" alt="Brand Logo">
+        <img class="logo-brand" src="_assets/img/logo.svg" alt="Brand Logo">
         <h2 class="aside-bar__title"> Categorias </h2>
 
         <ul class="aside-bar__categories">
-          <li class="aside-bar__categories__block"> <img src="" alt=""> </li>
-          <li class="aside-bar__categories__block"> <img src="" alt=""> </li>
-          <li class="aside-bar__categories__block"> <img src="" alt=""> </li>
-          <li class="aside-bar__categories__block"> <img src="" alt=""> </li>
-          <li class="aside-bar__categories__block"> <img src="" alt=""> </li>
-          <li class="aside-bar__categories__block"> <img src="" alt=""> </li>
+          <li class="aside-bar__categories__item"> <img src="_assets/img/categories-icons/animation-icon.svg" alt="Animation Icon" width="40"> </li>
+          <li class="aside-bar__categories__item"> <img src="_assets/img/categories-icons/audio-icon.svg"     alt="Audio Icon" width="40">     </li>
+          <li class="aside-bar__categories__item"> <img src="_assets/img/categories-icons/color-icon.svg"     alt="Color Icon" width="40">     </li>
+          <li class="aside-bar__categories__item"> <img src="_assets/img/categories-icons/photo-icon.svg"     alt="Photo Icon" width="40">     </li>
+          <li class="aside-bar__categories__item"> <img src="_assets/img/categories-icons/video-icon.svg"     alt="Video Icon" width="40">     </li>
+          <li class="aside-bar__categories__item"> <img src="_assets/img/categories-icons/web-icon.svg"       alt="Web Icon"   width="40">     </li>
         </ul>
 
         <ul class="aside-bar__menu">
@@ -144,14 +147,16 @@
         </ul>
 
         <ul class="aside-bar__social-icons">
-          <li> <img class="facebook-icon" src="" alt="Facebook">  </li>
-          <li> <img class="instagram-icon" src="" alt="Instagram"> </li>
-          <li> <img class="twitter-icon" src="" alt="Twitter">   </li>
+          <li> <img class="aside-bar__social-icons__icon" src="_assets/img/social-icons/facebook.svg" alt="Facebook" width="36">  </li>
+          <li> <img class="aside-bar__social-icons__icon" src="_assets/img/social-icons/instagram.svg" alt="Instagram" width="36"> </li>
+          <li> <img class="aside-bar__social-icons__icon" src="_assets/img/social-icons/twitter.svg" alt="Twitter" width="36">   </li>
+
         </ul>
       </aside>
 
       <footer class="footer">
-          <img class="logo-brand" src="" alt="Brand Logo">
+          <img class="logo-brand" src="_assets/img/logo.svg" alt="Brand Logo">
+
         <ul class="footer__menu-link">
           <li> <a class="link-item" href="#"> Sobre nós         </a> </li>
           <li> <a class="link-item" href="#"> Trabalhe Conosco  </a> </li>
@@ -159,5 +164,7 @@
         </ul>
       </footer>
     </div>
+
+    <script src="_assets/_js/script.js"></script>
   </body>
 </html>

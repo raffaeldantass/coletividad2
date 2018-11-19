@@ -1,0 +1,7 @@
+:root {
+  --bg-color-navbar: #E0DED7;
+}
+
+.nav {
+  background-color: var(--bg-color-navbar, #E0DED7);
+}

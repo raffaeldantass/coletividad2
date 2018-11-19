@@ -1,0 +1,18 @@
+:root {
+  --bg-color-aside-bar: #151515;
+}
+
+.aside-bar {
+  flex-direction: column;
+  background-color: var(--bg-color-aside-bar, #151515);
+}
+
+@media screen and (max-width: 600px) {
+  .aside-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: calc(100% - 125px);
+  }
+}
