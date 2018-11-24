@@ -1,5 +1,7 @@
 @import '../views/main.css';
 @import '../atoms/filter-title.css';
+@import '../atoms/gallery-text-description.css';
+@import '../atoms/gallery-text-title.css';
 @import '../atoms/filter-text.css';
 @import '../atoms/mobile-menu-icon.css';
 @import '../atoms/logo.css';
@@ -10,7 +12,9 @@
 @import '../atoms/aside-social-icons.css';
 @import '../atoms/aside-categories-item.css';
 @import '../atoms/aside-menu-item.css';
+@import '../molecules/gallery.css';
 @import '../molecules/mobile-menu.css';
+@import '../molecules/filter-section.css';
 @import '../molecules/footer-menu.css';
 @import '../molecules/aside-social-icons.css';
 @import '../molecules/aside-menu.css';

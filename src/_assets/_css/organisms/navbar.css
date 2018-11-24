@@ -3,5 +3,9 @@
 }
 
 .nav {
+  grid-area: nav;
   background-color: var(--bg-color-navbar, #E0DED7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
