@@ -1,0 +1,9 @@
+:root {
+  --font-color-gallery-description: #ffffff;
+}
+
+.gallery__text-block__description {
+  font-size: 18px;
+  color: var(--font-color-gallery-description, #ffffff);
+  text-align: center;
+}

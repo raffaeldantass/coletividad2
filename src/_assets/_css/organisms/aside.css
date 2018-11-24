@@ -3,6 +3,7 @@
 }
 
 .aside-bar {
+  grid-area: aside;
   flex-direction: column;
   background-color: var(--bg-color-aside-bar, #151515);
 }

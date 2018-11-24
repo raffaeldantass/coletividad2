@@ -16,3 +16,15 @@ body {
     position: relative;
   }
 }
+
+@media screen and (min-width: 601px) {
+  .container {
+    display: grid; 
+    grid-template-columns: 250px 4fr;
+    grid-template-rows: .1fr 4fr .1fr;
+    grid-template-areas: 
+                  "aside nav"
+                  "aside main-content"
+                  "footer footer"
+  }
+}

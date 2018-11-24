@@ -3,5 +3,10 @@
 }
 
 .content {
+  grid-area: main-content;
   background-color: var(--bg-color-main-content, #292726);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
